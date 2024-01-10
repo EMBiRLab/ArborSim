@@ -1,6 +1,6 @@
 ## Directory Structure and Description
 
-This directory is structured to support the construction of OpenSim models using various data formats and methodologies. In the `Models` directory, users can create individual folders for each model or a master folder for groups of models. For individual models, populate `Data` and `Output` subfolders within the model's folder. For multiple models, establish separate subfolders for each model within the master folder. Each model subfolder should also be structured with its own `Data` and `Output` subfolders. 
+This directory is structured to support the construction of OpenSim models using various data formats and methodologies. In the `Models` directory, users can create individual folders for each model or a parent folder for groups of models. For individual models, populate `Data` and `Output` subfolders within the model's folder. For multiple models, establish separate subfolders for each model within the parent folder. Each model subfolder should also be structured with its own `Data` and `Output` subfolders. 
 
 ### Starter Folders in the Directory
 The following folders are included in the repository at its initial setup. They are designed to help users understand the structure, get started with model creation, and reproduce the results in the accompanying paper.
