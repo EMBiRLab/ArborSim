@@ -1,0 +1,5 @@
+body_name,osim_geom_type,params
+link1,Cylinder,"0.05,0.25"
+link2,Cylinder,"0.05,0.25"
+link3,Cylinder,"0.05,0.25"
+float1,Sphere,"0.01"

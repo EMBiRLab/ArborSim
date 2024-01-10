@@ -1,0 +1,10 @@
+joint_name,par_body,chd_body,loc_in_par_x,loc_in_par_y,loc_in_par_z,ori_in_par_x,ori_in_par_y,ori_in_par_z,loc_in_chd_x,loc_in_chd_y,loc_in_chd_z,ori_in_chd_x,ori_in_chd_y,ori_in_chd_z
+ground_link1,ground,link1,0,1.775,0,0,0,0,0,0.1125,0,0,0,0
+link1_link2,link1,link2,0,-0.1125,0,0,0,0,0,0.1125,0,0,0,0
+link2_link3,link2,link3,0,-0.1125,0,0,0,0,0,0.1125,0,0,0,0
+link3_link4,link3,link4,0,-0.1125,0,0,0,0,0,0.1125,0,0,0,0
+link4_link5,link4,link5,0,-0.1125,0,0,0,0,0,0.1125,0,0,0,0
+link5_link6,link5,link6,0,-0.1125,0,0,0,0,0,0.1125,0,0,0,0
+link6_link7,link6,link7,0,-0.1125,0,0,0,0,0,0.1125,0,0,0,0
+link7_link8,link7,link8,0,-0.1125,0,0,0,0,0,0.1125,0,0,0,0
+link3_float1,link3,float1,0.025,-0.058,0,0,0,0,0,0,0,0,0,0

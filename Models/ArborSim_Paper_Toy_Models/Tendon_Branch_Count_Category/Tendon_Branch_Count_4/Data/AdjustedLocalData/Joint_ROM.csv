@@ -1,0 +1,13 @@
+joint_name,dof,min_rx,max_rx,min_ry,max_ry,min_rz,max_rz,min_tx,max_tx,min_ty,max_ty,min_tz,max_tz
+ground_link1,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link1_link2,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link2_link3,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link3_link4,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link4_link5,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link5_link6,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link6_link7,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link7_link8,rz,NaN,NaN,NaN,NaN,-45,45,NaN,NaN,NaN,NaN,NaN,NaN
+link1_float1,ty,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+link2_float2,ty,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+link3_float3,ty,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+link4_float4,ty,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN

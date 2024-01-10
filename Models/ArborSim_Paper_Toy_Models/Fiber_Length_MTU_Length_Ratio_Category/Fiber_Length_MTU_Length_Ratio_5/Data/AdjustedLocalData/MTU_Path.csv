@@ -1,0 +1,11 @@
+mtu_name,pt_idx,pt_type,attached_body,loc_in_body_x,loc_in_body_y,loc_in_body_z
+group1_MTU1,1,origin,link1,0.025,0.1,0
+group1_MTU1,2,viapoint,link1,0.025,-0.1,0
+group1_MTU1,3,viapoint,link2,0.025,0.1,0
+group1_MTU1,4,viapoint,link2,0.025,-0.1,0
+group1_MTU1,5,viapoint,link3,0.025,0.1,0
+group1_MTU1,6,viapoint,link3,0.025,-0.1,0
+group1_MTU1,7,viapoint,link4,0.025,0.1,0
+group1_MTU1,8,viapoint,link4,0.025,-0.1,0
+group1_MTU1,9,viapoint,link5,0.025,0.1,0
+group1_MTU1,10,insertion,float1,0,0,0
