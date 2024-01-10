@@ -3,13 +3,13 @@
 ## Description
 ArborSim (Articulated, Branching, OpenSim Routing for Constructing Models of Multi-jointed Appendages with Complex Muscle-Tendon Architecture) is a dedicated software framework for musculoskeletal modeling. Its primary role is to assist biomechanics researchers in efficiently constructing models of articulated appendages from CT scans and dissection data, with the data organized into multiple Comma-Separated Values (CSV) files.
 
-ArborSim is designed to integrate seamlessly with the [API of OpenSim](https://github.com/opensim-org/opensim-core), a widely recognized open-source software for modeling, simulating, and analyzing musculoskeletal system. This integration is intended to streamline model development and faciliate sharing within the research community.
+ArborSim is designed to integrate seamlessly with the [API of OpenSim](https://github.com/opensim-org/opensim-core), a widely recognized open-source software for modeling, simulating, and analyzing musculoskeletal systems. This integration is intended to streamline model development and faciliate sharing within the research community.
 
 One of the distinctive features of ArborSim is its novel approach to modeling complex muscle-tendon architectures, particularly in cases of branching. Traditionally, musculoskeletal modeling represents these architectures as distinct, separate, and independent compartments. In contrast, ArborSim introduces a method where branched muscle-tendon architectures are depicted as assemblies of individual muscular and tendinous elements that are interconnected, providing a more nuanced representation of the interactions within branched muscle-tendon architectures.
 
-ArborSim offers versatility in modeling techniques. It allows users to choose between the traditional method of modeling branching muscle-tendon architectures and the novel approach.
+ArborSim offers versatility in modeling techniques. It allows users to choose between the traditional (parallel) method of modeling branching muscle-tendon architectures and the novel (explicitly branched) approach.
 
-For more information about ArborSim, including its approach to modeling branching muscle-tendon architecture, please refer to our accompanying paper:
+For more information about ArborSim, including its approach to modeling branching muscle-tendon architectures, please refer to our accompanying paper: 
 
 ## Installation
 Follow these steps to install ArborSim:
@@ -33,9 +33,9 @@ Follow these steps to install ArborSim:
 ## Repository Structure
 The ArborSim repository includes the following directories:
 
-- **`Models`**: Hosts source data for building models and constructed model files. It comes preloaded with an introductory example for new users, and toy musculoskeletal models involved in the accompanying paper. For comprehensive details on the directory structure and data format guidelines, refer to the [README](./Models/README.md) within this directory.
+- **`Models`**: Hosts source data for building models and constructed model files. It comes preloaded with an introductory example for new users and toy musculoskeletal models involved in the accompanying paper. For comprehensive details on the directory structure and data format guidelines, refer to the [README](./Models/README.md) within this directory.
 - **`Scripts`**: Contains MATLAB scripts for constructing musculoskeletal models from the data in the `Models` directory. A [README](./Scripts/README.md) providing a description of this directory's contents is also available.
-- **`Simulations`**: Contains MATLAB scripts and results for simulating the toy musculoskeletal models used for the comparative study in the accompanying paper.
+- **`Simulations`**: Contains MATLAB scripts and results for simulating the toy musculoskeletal models used for the comparisons and sensitivity analyses in the accompanying paper.
 
 ## Quick Start
 To get started with ArborSim:
@@ -51,7 +51,7 @@ To aid in setting up a suitable environment for ArborSim, please note that Arbor
 - **MATLAB**: MATLAB R2023b
 - **OpenSim**: OpenSim 4.4
 
-We recommend these versions as a reference point for optimal compatibility and performance. However, ArborSim could operate with different versions, although functionality and performance may vary. We encourage users to report any compatibility issues they encounter to help us improve ArborSim.
+We recommend these versions as a reference point for optimal compatibility and performance. ArborSim can operate with different versions, but we cannot make predictions regarding the variations in performance. We encourage users to report any compatibility issues they encounter to help us improve ArborSim.
 
 ## Contributing
 Contributions to ArborSim are welcome! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to contribute.
@@ -64,3 +64,6 @@ ArborSim is licensed under the Apache License, Version 2.0. For more information
 
 ## Authors
 Xun Fu (xunfu@umich.edu)
+Jack Withers (jawither@umich.edu)
+Juri Miyamae (jmiyamae@umich.edu)
+Talia Y. Moore (taliaym@umich.edu)
