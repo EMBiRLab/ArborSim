@@ -22,7 +22,7 @@ The folllowing explains the components of the `Data` and `Output` subfolders wit
 This folder serves as the primary repository of source data for model construction. It is divided into three distinct data formats:
 
 ##### - `GlobalData`
-   - **Description**: This folder is equivalent in Layer 1 explained in the accompanying paper. It contains data acquired in a single global reference frame, which is the default or customized coordinate systems used in biomedical imaging source data.
+   - **Description**: This folder is equivalent to Layer 1 explained in the accompanying paper. It contains data acquired in a single global reference frame, which is the default or customized coordinate systems used in biomedical imaging source data.
    - **Contents**:
      - `Geometry`: Includes segmented body geometries in the global reference frame.
      - CSV Files: 
@@ -38,7 +38,7 @@ This folder serves as the primary repository of source data for model constructi
        10. `Wrapping_Surface_MTU_Ligament_Pairings.csv`
 
 ##### - `LocalData`
-   - **Description**: This folder is equivalent in Layer 2 explained in the accompanying paper. It contains data in local reference systems, tailored for individual bodies within the model.
+   - **Description**: This folder is equivalent to Layer 2 explained in the accompanying paper. It contains data in local reference systems, tailored for individual bodies within the model.
    - **Contents**:
      - `Geometry`: Segmented body geometries adapted to each body's local coordinate system.
      - CSV Files:
@@ -53,7 +53,7 @@ This folder serves as the primary repository of source data for model constructi
        9. `Wrapping_Surfaces.csv`
 
 ##### - `AdjustedLocalData`
-   - **Description**: This folder is equivalent in Layer 3 explained in the accompanying paper. It features data in local format, adapted for use with the proposed branching modeling method in the accompanying paper.
+   - **Description**: This folder is equivalent to Layer 3 explained in the accompanying paper. It features data in local format, adapted for use with the proposed branching modeling method in the accompanying paper.
    - **Contents**:
      - `Geometry`: Segmented body geometries adapted to each body's local coordinate system.
      - CSV Files:
