@@ -1,17 +1,17 @@
 % This script is used to build introductory example models for users new to 
 % the repository. The data for model construction is stored in the folder
-% ../Models/Hello_Arbor. Specifically, the data is located in 
-% ../Models/Hello_Arbor/Data/LocalData, using the "local" data format for 
+% ../Models/Hello_ArborSim. Specifically, the data is located in 
+% ../Models/Hello_ArborSim/Data/LocalData, using the "local" data format for 
 % model construction. It is supposed to represent a simple 2D planar system
 % with three links connected via a single degree of freedom rotational 
 % joint, incorporating a muscle-tendon architecture where one muscle 
 % bifurcates into two tendon branches. The muscle-tendon architecture is 
 % modeled using the conventional branching method in 
-% ../Models/Hello_Arbor/Data/LocalData. To construct a model with the 
+% ../Models/Hello_ArborSim/Data/LocalData. To construct a model with the 
 % proposed branching muscle-tendon architecture, set the explicit_branching
 % flag to true in the "Set up the model construction parameters" section 
 % below. This will use the proposed branching method, and the adjusted 
-% local data will be stored in ../Models/Hello_Arbor/Data/AdjustedLocalData.
+% local data will be stored in ../Models/Hello_ArborSim/Data/AdjustedLocalData.
 
 %% Set up the environment
 clear; close all;
