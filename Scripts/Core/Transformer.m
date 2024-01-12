@@ -296,10 +296,11 @@ classdef Transformer
             % Inputs: None
             %
             % Outputs:
-            %   - obj: An instance of the Transformer class (Transformer object)
+            %   - obj: An instance of the Transformer class (Transformer object) with an 
+            %     updated 'jcs_tbl' property.
             %
             % Example usage:
-            %   obj = obj.builde_jcs_tbl();
+            %   obj = obj.build_jcs_tbl();
             %
 
             % Read the JCS landmarks from the JCS landmarks file
@@ -534,7 +535,9 @@ classdef Transformer
             %
             % Inputs: None
             %
-            % Outputs: None
+            % Outputs: 
+            %   - obj: An instance of the Transformer class (Transformer object) with an 
+            %     updated 'mtu_path_tbl' property.
             %
             % Example usage:
             %   obj = obj.build_mtu_path_tbl();
@@ -644,7 +647,9 @@ classdef Transformer
             %
             % Inputs: None
             %
-            % Outputs: None
+            % Outputs: 
+            %   - obj: An instance of the Transformer class (Transformer object) with an
+            %     updated 'body_mass_props_tbl' property.
             %
             % Example usage:
             %   obj = obj.build_body_mass_props_tbl();
@@ -707,7 +712,9 @@ classdef Transformer
             %
             % Inputs: None
             %
-            % Outputs: None
+            % Outputs: 
+            %   - obj: An instance of the Transformer class (Transformer object) with an
+            %     updated 'wrap_surf_tbl' property.
             %
             % Example usage:
             %   obj = obj.build_wrap_surf_tbl();
@@ -826,9 +833,11 @@ classdef Transformer
             % 'mtu_params_tbl' property of the object. It also writes the 'mtu_params_tbl' property of the 
             % object to a CSV file named 'MTU_Parameters.csv' in the 'LocalData' directory under the model root directory.
             %
-            %  Inputs: None
+            % Inputs: None
             %
-            % Outputs: None
+            % Outputs: 
+            %   - obj: An instance of the Transformer class (Transformer object) with an
+            %     updated 'mtu_params_tbl' property.
             %
             % Example usage:
             %   obj.mirror_mtu_params_tbl();
@@ -851,7 +860,9 @@ classdef Transformer
             %
             % Inputs: None
             %
-            % Outputs: None
+            % Outputs:
+            %   - obj: An instance of the Transformer class (Transformer object) with an
+            %     updated 'joint_rom_tbl' property.
             %            
             % Example usage:
             %   obj.mirror_joint_rom_tbl();
@@ -874,7 +885,9 @@ classdef Transformer
             %
             % Inputs: None
             %
-            % Outputs: None
+            % Outputs: 
+            %   - obj: An instance of the Transformer class (Transformer object) with an
+            %     updated 'branch_group_tbl' property.
             %
             % Example usage:
             %  obj.mirror_branch_groups_tbl();
@@ -898,7 +911,9 @@ classdef Transformer
             %
             % Inputs: None
             %
-            % Outputs: None
+            % Outputs: 
+            %   - obj: An instance of the Transformer class (Transformer object) with an
+            %     updated 'mtu_wrap_surf_pair_tbl' property.
             %
             % Example usage:
             %   obj.mirror_mtu_wrap_surf_pair_tbl();
