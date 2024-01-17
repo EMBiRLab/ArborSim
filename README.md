@@ -9,7 +9,7 @@ One of the distinctive features of ArborSim is its novel approach to modeling co
 
 ArborSim offers versatility in modeling techniques. It allows users to choose between the traditional (parallel) method of modeling branching muscle-tendon architectures and the novel (explicitly branched) approach.
 
-For more information about ArborSim, including its approach to modeling branching muscle-tendon architectures, please refer to our accompanying paper: 
+For more information about ArborSim, including its approach to modeling branching muscle-tendon architectures, please refer to our accompanying paper: [https://www.biorxiv.org/content/10.1101/2024.01.13.575515v1](https://www.biorxiv.org/content/10.1101/2024.01.13.575515v1)
 
 ## Installation
 Follow these steps to install ArborSim:
